@@ -1,0 +1,18 @@
+.got-it-btn-container {
+    margin-left: 60px;
+}
+
+.got-it-btn {
+    padding: 10px;
+    width: 100px;
+    border-radius: 999px;
+    border: none;
+    background-color: #845EC2;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.got-it-btn:hover{
+    background-color: rgb(112, 122, 166);
+}

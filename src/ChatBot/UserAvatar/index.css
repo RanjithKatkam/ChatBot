@@ -1,0 +1,13 @@
+.user-avatar-container{
+    background-color: #a29bfe;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-avatar-img {
+    height: 40px;
+}

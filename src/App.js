@@ -1,25 +1,20 @@
-import logo from './logo.svg';
+import { Routes, Route } from 'react-router-dom';
+import 'react-chatbot-kit/build/main.css';
+
 import './App.css';
+import MyChatBot from "./Components/MyChatBot"
+import ExitPage from "./Components/ExitPage"
+import ChatBot from "./ChatBot/ChatBot";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <Routes>
+      <Route path="/" element={<MyChatBot />} />
+      <Route path="/chatbot" element={<ChatBot />} />
+      <Route path="/exit" element={<ExitPage />} />
+    </Routes>
+  )
+  
 }
 
 export default App;

@@ -1,0 +1,16 @@
+.bot-avatar-container{
+    background-color: #4d60b6;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.bot-avatar-logo {
+    color: #fff;
+    font-weight: 500;
+    font-family: Tahoma;
+}

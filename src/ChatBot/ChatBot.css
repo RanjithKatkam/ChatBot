@@ -1,0 +1,49 @@
+.chat-bot-main-css {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #74EBD5;
+    background-size: cover;
+    background-image: url("https://res.cloudinary.com/dwgg5pyqk/image/upload/v1695237093/pexels-miguel-%C3%A1-padri%C3%B1%C3%A1n-1111368_pacv0g.jpg");
+  }
+  
+  .react-chatbot-kit-chat-container {
+    width: 400px;
+  }
+  
+  .react-chatbot-kit-chat-bot-message {
+    margin-left: 5px;
+    background-color: #845EC2;
+    font-weight: 500;
+    font-family: inter;
+    font-size: 17px;
+  }
+  
+  .react-chatbot-kit-chat-bot-message-arrow{
+    border-right: 8px solid #845EC2;
+  }
+  
+  .react-chatbot-kit-chat-btn-send{
+    background-color: #845EC2;
+  }
+  
+  .react-chatbot-kit-user-chat-message {
+    margin-right: 15px;
+    background-color: #cd84f1;
+    color: #fff;
+    font-weight: 500;
+    font-family: inter;
+    font-size: 15px;
+  }
+  
+  .react-chatbot-kit-user-chat-message-arrow {
+    border-left: 8px solid #cd84f1;
+  }
+
+  @media(max-width: 768px){
+    .react-chatbot-kit-chat-container {
+      width: 350px;
+    }
+  }
